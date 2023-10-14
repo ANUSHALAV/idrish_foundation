@@ -15,6 +15,5 @@ window.addEventListener('scroll', () => {
 
 
 
-// here aos animation init method call...
-AOS.init();
+
 
