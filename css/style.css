@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;800&display=swap');
+
+
+/* utility css start here... */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h2::before {
+    content: "";
+    width: 10%;
+    margin-bottom: 3px;
+    height: .5vh;
+    display: block;
+    background-color: #dc3545;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+::selection {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    color: #d1cdcd;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #797777;
+}
+
+.main-btn {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #dc3545;
+    padding: 9px 30px;
+    transition: .2s linear;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.main-btn:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.text-justify{
+    text-align:justify;
+}
+
+.shadoweffect{
+    box-shadow: 0 0 10px #a2a1a1;
+}
+
+/* utility css end */
+
+
+
+
+/* header-section */
+header {
+    z-index: 3;
+    height: 7vh;
+    background-color: #fff;
+}
+
+.header-section {
+    background-color: #dc3545;
+    padding-block: .5%;
+    color: #fff;
+}
+
+.header-section .container a i {
+    color: #fff;
+    transition: .3s linear;
+}
+
+.header-section .container a i:hover {
+    background-color: #fff;
+    color: #dc3545;
+}
+
+.header-section .container a i {
+    border: 2px solid #fff;
+}
+
+
+
+/* navbar-section */
+.navbar {
+    background-color: #fff;
+    z-index: 3;
+    box-shadow: 0px 10px 20px #535353;
+}
+
+.container .navbar-nav .nav-item a {
+    color: #000;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.container .navbar-nav .nav-item a:hover {
+    color: #dc3545;
+}
+
+
+/* hero-section */
+.hero-section .carousel .carousel-inner {
+    height: 100vh;
+}
+
+.hero-section .carousel .carousel-inner .carousel-item {
+    height: 100vh;
+}
+
+.hero-section .carousel-caption {
+    margin-bottom: 200px;
+}
+
+
+
+/* about-hero-section */
+.about-hero-section .container-fluid .row .col-12 {
+    height: 50vh;
+    width: 100%;
+}
+
+/* form-section */
+.form-section {
+    position: fixed;
+    background-color: #0000004f;
+    background-blend-mode: hard-light;
+    height: 100vh;
+    width: 100%;
+    top: 125px
+}
+
+.form-section .container .row .col-10 {
+    background-color: #fff;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+
+
+
+
+
+/* project section */
+.container .card {
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 0 15px #abaaaa;
+}
+
+.container .card img {
+    transition: .3s linear;
+}
+
+.container .card:hover img {
+    transform: scale(1.1, 1.1);
+    overflow: hidden;
+}
+
+
+/* contect-section */
+.contect-section form input {
+    display: block;
+    padding: 9px 10px;
+    width: 90%;
+    margin-block: 20px;
+    outline: none;
+}
+
+form textarea {
+    padding: 7px 10px;
+    width: 90%;
+    outline: none;
+
+}
+
+form input[type="submit"] {
+    border: 2px solid #dc3545;
+}
+
+
+
+
+/* footer-section */
+
+.footer-section {
+    background-color: #343a40;
+    color: #999;
+    padding-block: 20px;
+
+}
+
+.footer-section .container ul {
+    list-style: none;
+}
+
+.footer-section .container ul li a {
+    text-decoration: none;
+    color: #999;
+    display: inline-block;
+    padding-block: 5px;
+    transition: .1s linear;
+}
+
+.footer-section .container ul li a:hover {
+    color: #dc3545;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* media query start here */
+
+@media screen and (max-width:990px) {
+    .header-section {
+        display: none;
+    }
+}
