@@ -124,7 +124,7 @@ header {
 .navbar {
     background-color: #fff;
     z-index: 3;
-    box-shadow: 0px 10px 20px #535353;
+    box-shadow: 0px 5px 10px #939292;
 }
 
 .container .navbar-nav .nav-item a {
@@ -158,6 +158,10 @@ header {
 .about-hero-section .container-fluid .row .col-12 {
     height: 50vh;
     width: 100%;
+}
+
+.top-25{
+    top:240px;
 }
 
 /* form-section */
