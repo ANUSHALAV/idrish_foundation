@@ -1,3 +1,8 @@
+
+
+
+
+// here nav bar animation code....
 let nav = document.querySelector(".navbar");
 
 window.addEventListener('scroll', () => {
@@ -10,4 +15,6 @@ window.addEventListener('scroll', () => {
 
 
 
-// 9924
+// here aos animation init method call...
+AOS.init();
+
