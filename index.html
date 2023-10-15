@@ -160,8 +160,7 @@
     <main class="py-4">
 
         <!-- about-section -->
-        <section class="about-section mb-3" id="about-section" data-aos="fade-right" data-aos-mirror="true"
-            data-aos-duration="650">
+        <section class="about-section mb-3" id="about-section" data-aos="fade-right" >
             <div class="container py-3">
                 <div class="row align-items-center justify-content-center justify-content-md-between ">
                     <div class="col-md-6 col-11 text-capitalize">
@@ -182,8 +181,7 @@
 
 
         <!-- mission-section -->
-        <section class="mission-section mb-3" id="mission-section" data-aos="" data-aos-duration="650"
-            data-aos-mirror="true">
+        <section class="mission-section mb-3" id="mission-section" data-aos="fade-right">
             <div class="container py-3">
                 <div class="row justify-content-md-between align-items-center justify-content-center">
                     <div class="col-md-6 col-11 order-md-1 order-2">
@@ -216,7 +214,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-md-evenly justify-content-center align-items-center">
-                    <div class="col-md-4 col-11 my-4" data-aos="flip-left" data-aos-duration="650">
+                    <div class="col-md-4 col-11 my-4" data-aos="flip-left">
                         <div class="card text-center text-capitalize" style="width:100%">
                             <img src="image/project1.avif" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
@@ -229,8 +227,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-11 my-4">
-                        <div class="card text-center text-capitalize" style="width:100%;" data-aos="flip-right"
-                            data-aos-duration="650">
+                        <div class="card text-center text-capitalize" style="width:100%;" data-aos="flip-right">
                             <img src="image/project3.webp" class="card-img-top w-100 img-fluid" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold py-2">project care</h5>
@@ -242,8 +239,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-11 my-4">
-                        <div class="card text-center text-capitalize" style="width:100%" data-aos="flip-left"
-                            data-aos-duration="650">
+                        <div class="card text-center text-capitalize" style="width:100%" data-aos="flip-left">
                             <img src="image/project2.jpg" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold py-2">project free libraray</h5>
@@ -261,8 +257,7 @@
 
 
         <!-- testomonial-section -->
-        <section class="testomonial-section mb-5" id="#testomonial-section" data-aos-duration="650"
-            data-aos="fade-right">
+        <section class="testomonial-section mb-5" id="#testomonial-section" data-aos="fade-right">
             <div class="container">
                 <div class="row justify-content-around" data-aos="" data-aos-duration="650">
                     <div class="col-lg-3 col-10 my-5">
@@ -334,7 +329,7 @@
 
 
         <!-- team member section -->
-        <section class="member-section py-5 mb-4" data-aos="" data-aos-duration="650">
+        <section class="member-section py-5 mb-4" data-aos="">
             <div class="container">
                 <div class="row mb-4">
                     <div class="col-10 px-5">
@@ -342,7 +337,8 @@
                     </div>
                 </div>
                 <div class="row justify-content-md-around justify-content-center align-items-center">
-                    <div class="col-md-3 col-10 d-flex justify-content-md-between rounded-4 py-2 shadoweffect mb-4 py-4">
+                    <div
+                        class="col-md-3 col-10 d-flex justify-content-md-between rounded-4 py-2 shadoweffect mb-4 py-4">
                         <div class="col-3 rounded-circle overflow-hidden">
                             <img src="image/man.png" alt="" class="img-fluid w-100">
                         </div>
@@ -352,7 +348,8 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-10 d-flex justify-content-md-between rounded-4 py-2 shadoweffect mb-4 py-4">
+                    <div
+                        class="col-md-3 col-10 d-flex justify-content-md-between rounded-4 py-2 shadoweffect mb-4 py-4">
                         <div class="col-3 rounded-circle overflow-hidden">
                             <img src="image/man.png" alt="" class="img-fluid w-100">
                         </div>
@@ -363,7 +360,8 @@
                     </div>
 
 
-                    <div class="col-md-3 col-10 d-flex justify-content-md-between rounded-4 py-2 shadoweffect mb-4 py-4">
+                    <div
+                        class="col-md-3 col-10 d-flex justify-content-md-between rounded-4 py-2 shadoweffect mb-4 py-4">
                         <div class="col-3 rounded-circle overflow-hidden">
                             <img src="image/man.png" alt="" class="img-fluid w-100">
                         </div>
@@ -379,11 +377,11 @@
 
 
         <!-- contect-section -->
-        <section class="contect-section mb-5" id="contect-section" data-aos-duration="650" data-aos="fade-right">
+        <section class="contect-section mb-5" id="contect-section" data-aos="fade-right">
             <div class="container py-5">
-                
+
                 <div class="row justify-content-md-around justify-content-center align-items-center">
-                   
+
                     <div class="col-md-6 col-11 text-capitalize">
                         <h2>contect us</h2>
                         <form action="" id="form">
@@ -550,7 +548,10 @@
 
 
         // here aos animation init method call...
-        AOS.init();
+        AOS.init({
+            duration: 1200,
+            mirror:"true"
+        });
 
     </script>
 
