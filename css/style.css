@@ -78,11 +78,11 @@ a {
     color: #fff;
 }
 
-.text-justify{
-    text-align:justify;
+.text-justify {
+    text-align: justify;
 }
 
-.shadoweffect{
+.shadoweffect {
     box-shadow: 0 0 10px #a2a1a1;
 }
 
@@ -142,12 +142,12 @@ header {
 /* hero-section */
 .hero-section .carousel .carousel-inner {
     height: 100vh;
-   
+
 }
 
 .hero-section .carousel .carousel-inner .carousel-item {
     height: 100vh;
-   
+
 }
 
 .hero-section .carousel-caption {
@@ -162,8 +162,8 @@ header {
     width: 100%;
 }
 
-.top-25{
-    top:240px;
+.top-25 {
+    top: 240px;
 }
 
 /* form-section */
@@ -272,7 +272,7 @@ form input[type="submit"] {
     }
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:550px) {
     .hero-section .carousel .carousel-inner {
         height: 60vh;
     }
