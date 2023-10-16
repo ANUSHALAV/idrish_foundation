@@ -16,12 +16,11 @@
 
     <!-- aos css CDN link -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
 </head>
 
 <body>
     <!-- header-section -->
-    <header class=" w-100 mb-3">
+    <header class=" w-100 mb-2">
 
         <section class="header-section">
             <div class="container">
@@ -105,7 +104,7 @@
 
 
     <!-- detail-about-section -->
-    <section class="detail-about-section my-3">
+    <section class="detail-about-section mb-2">
         <div class="container">
             <div class="row py-5 justify-content-md-between align-items-center justify-content-center">
                 <div class="col-md-6 col-11 text-capitalize ">
@@ -142,7 +141,7 @@
 
 
     <!-- mission-section -->
-    <section class="mission-section my-5"  id="mission-section">
+    <section class="mission-section mb-2" id="mission-section" data-aos="fade-right">
         <div class="container py-5">
             <div class="row justify-content-md-between justify-content-center align-items-center">
                 <div class="col-md-6 col-11 text-capitalize">
@@ -222,6 +221,9 @@
     </footer>
 
 
+   
+
+
     <!-- custom javascript -->'
     <script src="js/main.js"></script>
 
@@ -233,6 +235,15 @@
 
     <!-- aos javascrip CDN link -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+    <script>
+        // here aos animation init method call...
+        AOS.init({
+            duration: 1200,
+            mirror: "true"
+        });
+    </script>
 
 </body>
 
