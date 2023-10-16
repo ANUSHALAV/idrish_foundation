@@ -142,10 +142,13 @@ header {
 /* hero-section */
 .hero-section .carousel .carousel-inner {
     height: 100vh;
+   
 }
 
 .hero-section .carousel .carousel-inner .carousel-item {
     height: 100vh;
+    background-blend-mode: hard-light;
+    background-color: #000;
 }
 
 .hero-section .carousel-caption {
@@ -171,7 +174,7 @@ header {
     background-blend-mode: hard-light;
     height: 100vh;
     width: 100%;
-    top: 125px
+    top: 90px
 }
 
 .form-section .container .row .col-10 {
