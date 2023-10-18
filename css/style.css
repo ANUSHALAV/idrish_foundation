@@ -285,5 +285,8 @@ form input[type="submit"] {
         height:100vh;
     
     }
+    .hero-section .carousel-caption {
+        margin-bottom:400px;
+    }
 
 }
