@@ -178,10 +178,10 @@ header {
 
 .form-section .container .row .image {
     background-color: #fff;
-    height:80vh;
+    height:70vh;
 }
 .image img{
-    height:70vh;
+    height:50vh;
 }
 
 .hidden {
