@@ -133,12 +133,12 @@
             <div class="row justify-content-md-between justify-content-center align-items-center">
                 <div class="col-md-6 col-12">
                     <table>
-                        <tr>
+                        <tr class="">
                             <th>Account Number :</th>
                             <td>434567890124</td>
                         </tr>
 
-                        <tr>
+                        <tr class="">
                             <th>IFSC Code :</th>
                             <td>SBI876tyoo</td>
                         </tr>
@@ -488,15 +488,15 @@
         btn.addEventListener("click", (event) => {
             event.preventDefault();
             form.classList.add("show");
-            document.body.classList.add("overflow-hidden");
+            // document.body.classList.add("overflow-hidden");
         });
 
-        let donebtn = document.querySelector("#doneBtn");
-        donebtn.addEventListener("click", (event) => {
-            event.preventDefault();
-            form.classList.remove("show");
-            document.body.classList.remove("overflow-hidden");
-        });
+        // let donebtn = document.querySelector("#doneBtn");
+        // donebtn.addEventListener("click", (event) => {
+        //     event.preventDefault();
+        //     form.classList.remove("show");
+        //     // document.body.classList.remove("overflow-hidden");
+        // });
 
 
 

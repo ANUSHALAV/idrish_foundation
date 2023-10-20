@@ -179,7 +179,7 @@ header {
     top:0;
     background-color: #0000004f;
     background-blend-mode: hard-light;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     z-index:200;
 }
@@ -191,7 +191,7 @@ header {
     width:50%;
 }
 .image{
-    height:55vh;
+    height:60vh;
 }
 
 .image img{
@@ -289,7 +289,7 @@ form input[type="submit"] {
         display: none;
     }
     .form-section .container  {
-       height:80vh;
+       height:90vh;
         width:90%;
     }
 }
