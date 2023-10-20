@@ -175,20 +175,27 @@ header {
 
 /* form-section */
 .form-section {
-    position: fixed;
+    position:absolute;
+    top:0;
     background-color: #0000004f;
     background-blend-mode: hard-light;
     height: 100vh;
     width: 100%;
-    top: 60px;
+    z-index:200;
 }
 
-.form-section .container .row .image {
+.form-section .container  {
     background-color: #fff;
-    height:70vh;
+    height:fit-content;
+    padding-block:10px;
+    width:50%;
 }
+.image{
+    height:55vh;
+}
+
 .image img{
-    height:50vh;
+    height:100%;
 }
 
 .hidden {
@@ -280,6 +287,10 @@ form input[type="submit"] {
 @media screen and (max-width:990px) {
     .header-section {
         display: none;
+    }
+    .form-section .container  {
+       height:80vh;
+        width:90%;
     }
 }
 
