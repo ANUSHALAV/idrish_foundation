@@ -292,6 +292,11 @@ form input[type="submit"] {
         height:90vh;
     
     }
+    .hero-section .carousel .carousel-inner img{
+        height:90vh;
+    
+    }
+
     .hero-section .carousel-caption {
         margin-bottom:350px;
     }
