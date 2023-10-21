@@ -187,8 +187,6 @@ header {
 .form-section .container  {
     background-color: #fff;
     height:fit-content;
-    padding-block:10px;
-    padding-inline:20px;
     width:50%;
     border-radius:10px;
 }
@@ -296,7 +294,7 @@ form input[type="submit"] {
     }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:600px) {
 
     .hero-section .carousel-caption .headline {
         font-size:1.2rem;
@@ -311,11 +309,38 @@ form input[type="submit"] {
     }
 
     .hero-section .carousel-caption {
-        margin-bottom:200px;
+        margin-bottom:250px;
+    }
+
+    .form-section .container  {
+        background-color: #fff;
+        height:80vh;
+        padding-block:10px;
+        padding-inline:20px;
+        border-radius:10px;
+    }
+
+  
+
+}
+
+
+
+@media screen and (max-width:350px){
+    .hero-section .carousel-caption {
+        margin-bottom:350px;
+    }
+
+    .form-section .container  {
+        background-color: #fff;
+        height:80vh;
+        padding-block:10px;
+        padding-inline:20px;
+        border-radius:10px;
     }
 
     .image{
         height:20vh;
+        border:5px solid green;
     }
-
 }
