@@ -93,7 +93,7 @@
     <section class="hero-section">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active " data-bs-interval="2000">
+                <div class="carousel-item active" data-bs-interval="2000">
                     <img class="d-block w-100 img-fluid overflow-hidden"
                         src="image/premium_photo-1681152790487-0177e04892df.avif" alt="Second slide">
                     <div class="carousel-caption ">
@@ -126,27 +126,34 @@
     <section class="form-section  hidden d-flex justify-content-center align-items-center">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h3 class="text-center text-capitalize fw-bold my-2">idrish foundation</h3>
+                <div class="col-12 text-end">
+                    <button type="button" class="btn border-0 outline-0" id="closebtn"><i class="fa-solid fa-circle-xmark fa-xl"></i></button>
                 </div>
+            </div>
+            <div class="row">
+                <h3 class="text-center text-capitalize fw-bold my-2">idrish foundation</h3>
             </div>
             <div class="row justify-content-md-between justify-content-center align-items-center">
                 <div class="col-md-6 col-12">
                     <table>
                         <tr class="">
-                            <th>Account Number :</th>
-                            <td>434567890124</td>
+                            <th>Account Number : </th>
+                            <td>345678900001</td>
                         </tr>
-
+                        <tr>
+                            <th>Account Name : </th>
+                            <td>Idrish Foundation</td>
+                        </tr>
                         <tr class="">
-                            <th>IFSC Code :</th>
-                            <td>SBI876tyoo</td>
+                            <th>IFSC Code : </th>
+                            <td>SBI50044T</td>
                         </tr>
 
                         <tr>
-                            <th>Bank Name :</th>
+                            <th>Bank Name : </th>
                             <td>State Bank Of India</td>
                         </tr>
+
                     </table>
 
                 </div>
@@ -488,15 +495,15 @@
         btn.addEventListener("click", (event) => {
             event.preventDefault();
             form.classList.add("show");
-            // document.body.classList.add("overflow-hidden");
+            document.body.classList.add("overflow-hidden");
         });
 
-        // let donebtn = document.querySelector("#doneBtn");
-        // donebtn.addEventListener("click", (event) => {
-        //     event.preventDefault();
-        //     form.classList.remove("show");
-        //     // document.body.classList.remove("overflow-hidden");
-        // });
+        let closebtn = document.querySelector("#closebtn");
+        closebtn.addEventListener("click", (event) => {
+            event.preventDefault();
+            form.classList.remove("show");
+            document.body.classList.remove("overflow-hidden");
+        });
 
 
 
