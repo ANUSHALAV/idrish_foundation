@@ -140,17 +140,19 @@ header {
 
 
 /* hero-section */
-.hero-section{
-    height:100vh;
+.hero-section {
+    height: 100vh;
 }
+
 /* .hero-section .carousel .carousel-inner {
 
 } */
 
 .hero-section .carousel .carousel-inner .carousel-item {
-    height:100vh;
+    height: 100vh;
 
 }
+
 /* .hero-section .carousel .carousel-inner .carousel-item img {
     height:80vh;
     width:100%;
@@ -158,7 +160,7 @@ header {
 } */
 
 .hero-section .carousel-caption {
-    margin-bottom:320px;
+    margin-bottom: 320px;
 }
 
 
@@ -175,27 +177,28 @@ header {
 
 /* form-section */
 .form-section {
-    position:absolute;
-    top:0;
+    position: absolute;
+    top: 0;
     background-color: #0000004f;
     background-blend-mode: hard-light;
     height: 100vh;
     width: 100%;
-    z-index:200;
+    z-index: 200;
 }
 
-.form-section .container  {
+.form-section .container {
     background-color: #fff;
-    height:fit-content;
-    width:50%;
-    border-radius:10px;
-}
-.image{
-    height:40vh;
+    height: fit-content;
+    width: 50%;
+    border-radius: 10px;
 }
 
-.image img{
-    height:100%;
+.image {
+    height: 40vh;
+}
+
+.image img {
+    height: 100%;
 }
 
 .hidden {
@@ -288,59 +291,62 @@ form input[type="submit"] {
     .header-section {
         display: none;
     }
-    .form-section .container  {
-       height:90vh;
-        width:90%;
+
+    .form-section .container {
+        height: 90vh;
+        width: 90%;
     }
 }
 
 @media screen and (max-width:600px) {
 
     .hero-section .carousel-caption .headline {
-        font-size:1.2rem;
+        font-size: 1.2rem;
     }
-    .hero-section .carousel .carousel-inner{
-        height:90vh;
-    
+
+    .hero-section .carousel .carousel-inner {
+        height: 90vh;
+
     }
-    .hero-section .carousel .carousel-inner img{
-        height:100vh;
-    
+
+    .hero-section .carousel .carousel-inner img {
+        height: 100vh;
+
     }
 
     .hero-section .carousel-caption {
-        margin-bottom:250px;
+        margin-bottom: 250px;
     }
 
-    .form-section .container  {
+    .form-section .container {
         background-color: #fff;
-        height:80vh;
-        padding-block:10px;
-        padding-inline:20px;
-        border-radius:10px;
+        height: 80vh;
+        padding-block: 10px;
+        padding-inline: 20px;
+        border-radius: 10px;
     }
 
-  
+
 
 }
 
 
 
-@media screen and (max-width:350px){
+@media screen and (max-width:350px) {
     .hero-section .carousel-caption {
-        margin-bottom:350px;
+        margin-bottom: 350px;
     }
 
-    .form-section .container  {
+    .form-section .container {
         background-color: #fff;
-        height:80vh;
-        padding-block:10px;
-        padding-inline:20px;
-        border-radius:10px;
+        height: 80vh;
+        padding-block: 10px;
+        padding-inline: 20px;
+        border-radius: 10px;
     }
 
-    .image{
-        height:20vh;
-        border:5px solid green;
+    .image {
+        height: 20vh;
+        border: 5px solid green;
     }
 }
