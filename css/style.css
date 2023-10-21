@@ -311,7 +311,11 @@ form input[type="submit"] {
     }
 
     .hero-section .carousel-caption {
-        margin-bottom:300px;
+        margin-bottom:200px;
+    }
+
+    .image{
+        height:20vh;
     }
 
 }
