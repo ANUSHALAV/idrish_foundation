@@ -321,8 +321,6 @@ form input[type="submit"] {
     .form-section .container {
         background-color: #fff;
         height: 80vh;
-        padding-block: 10px;
-        padding-inline: 20px;
         border-radius: 10px;
     }
 
@@ -340,13 +338,10 @@ form input[type="submit"] {
     .form-section .container {
         background-color: #fff;
         height: 80vh;
-        padding-block: 10px;
-        padding-inline: 20px;
         border-radius: 10px;
     }
 
     .image {
-        height: 20vh;
-        border: 5px solid green;
+        height:30vh;
     }
 }
