@@ -171,6 +171,10 @@ header {
     width: 100%;
 }
 
+.about-hero-section .container-fluid .row .col-12 img{
+    height:100%;
+}
+
 .top-25 {
     top: 240px;
 }
@@ -323,8 +327,6 @@ form input[type="submit"] {
         height: 80vh;
         border-radius: 10px;
     }
-
-
 
 }
 
