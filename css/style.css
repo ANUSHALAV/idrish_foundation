@@ -334,7 +334,7 @@ form input[type="submit"] {
 
 @media screen and (max-width:350px) {
     .hero-section .carousel-caption {
-        margin-bottom: 350px;
+        margin-bottom:400px;
     }
 
     .form-section .container {
