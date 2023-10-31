@@ -310,6 +310,8 @@ form input[type="submit"] {
 
     .hero-section .carousel .carousel-inner {
         height:120vh;
+        border:4px solid green;
+
 
     }
 
@@ -336,7 +338,6 @@ form input[type="submit"] {
 
     .hero-section .carousel .carousel-inner {
         height:80vh;
-        border:4px solid green;
 
     }
 
