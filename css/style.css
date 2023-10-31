@@ -139,30 +139,6 @@ header {
 }
 
 
-/* hero-section */
-.hero-section {
-    height:90vh;
-}
-
-/* .hero-section .carousel .carousel-inner {
-
-} */
-
-.hero-section .carousel .carousel-inner .carousel-item {
-    height:90vh;
-
-}
-
-/* .hero-section .carousel .carousel-inner .carousel-item img {
-    height:80vh;
-    width:100%;
-
-} */
-
-.hero-section .carousel-caption {
-    margin-bottom: 250px;
-}
-
 
 
 /* about-hero-section */
@@ -304,26 +280,7 @@ form input[type="submit"] {
 
 @media screen and (max-width:600px) {
 
-    .hero-section .carousel-caption .headline {
-        font-size: 1.2rem;
-    }
-
-    .hero-section .carousel .carousel-inner {
-        height:120vh;
-        border:4px solid green;
-
-
-    }
-
-    .hero-section .carousel .carousel-inner img {
-        height: 120vh;
-
-    }
-
-    .hero-section .carousel-caption {
-        margin-bottom:130px;
-    }
-
+   
     .form-section .container {
         background-color: #fff;
         height: 80vh;
@@ -336,19 +293,7 @@ form input[type="submit"] {
 
 @media screen and (max-width:350px) {
 
-    .hero-section .carousel .carousel-inner {
-        height:80vh;
-
-    }
-
-    .hero-section .carousel .carousel-inner img {
-        height:80vh;
-
-    }
-    .hero-section .carousel-caption {
-        margin-bottom:80px;
-    }
-
+   
     .form-section .container {
         background-color: #fff;
         height: 80vh;
