@@ -333,8 +333,18 @@ form input[type="submit"] {
 
 
 @media screen and (max-width:350px) {
+
+    .hero-section .carousel .carousel-inner {
+        height:80vh;
+
+    }
+
+    .hero-section .carousel .carousel-inner img {
+        height:80vh;
+
+    }
     .hero-section .carousel-caption {
-        margin-bottom:400px;
+        margin-bottom:80px;
     }
 
     .form-section .container {
