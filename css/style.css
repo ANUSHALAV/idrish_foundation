@@ -141,7 +141,7 @@ header {
 
 /* hero-section */
 .hero-section {
-    height: 100vh;
+    height:90vh;
 }
 
 /* .hero-section .carousel .carousel-inner {
@@ -149,7 +149,7 @@ header {
 } */
 
 .hero-section .carousel .carousel-inner .carousel-item {
-    height: 100vh;
+    height:90vh;
 
 }
 
@@ -160,7 +160,7 @@ header {
 } */
 
 .hero-section .carousel-caption {
-    margin-bottom: 320px;
+    margin-bottom: 250px;
 }
 
 
@@ -309,17 +309,17 @@ form input[type="submit"] {
     }
 
     .hero-section .carousel .carousel-inner {
-        height: 90vh;
+        height:120vh;
 
     }
 
     .hero-section .carousel .carousel-inner img {
-        height: 100vh;
+        height: 120vh;
 
     }
 
     .hero-section .carousel-caption {
-        margin-bottom: 250px;
+        margin-bottom:130px;
     }
 
     .form-section .container {
