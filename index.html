@@ -90,7 +90,7 @@
 
 
     <!-- hero-section -->
-    <section class="hero-section">
+    <!-- <section class="hero-section">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="2000">
@@ -118,6 +118,34 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+    </section> -->
+
+
+    <!-- second hero section -->
+    <section class="hero-section">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="image/premium_photo-1681152790487-0177e04892df.avif" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="image/premium_photo-1683135024497-dc3398592783.avif" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/photo-1521316730702-829a8e30dfd0.avif" class="d-block w-100 img-fluid" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
 
 
@@ -167,6 +195,11 @@
             </div>
         </div>
     </section>
+
+
+
+
+
 
 
 
@@ -493,19 +526,19 @@
     <script>
         // here is write the script when user click donate now button
         let btn = document.querySelector("#donateBtn");
-        let form = document.querySelector(".form-section");
-        btn.addEventListener("click", (event) => {
-            event.preventDefault();
-            form.classList.add("show");
-            document.body.classList.add("overflow-hidden");
-        });
+        // let form = document.querySelector(".form-section");
+        // btn.addEventListener("click", (event) => {
+        //     event.preventDefault();
+        //     form.classList.add("show");
+        //     document.body.classList.add("overflow-hidden");
+        // });
 
-        let closebtn = document.querySelector("#closebtn");
-        closebtn.addEventListener("click", (event) => {
-            event.preventDefault();
-            form.classList.remove("show");
-            document.body.classList.remove("overflow-hidden");
-        });
+        // let closebtn = document.querySelector("#closebtn");
+        // closebtn.addEventListener("click", (event) => {
+        //     event.preventDefault();
+        //     form.classList.remove("show");
+        //     document.body.classList.remove("overflow-hidden");
+        // });
 
 
 
