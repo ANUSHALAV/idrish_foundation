@@ -140,6 +140,10 @@ header {
 
 
 
+/* hero section */
+.hero-section .carousel {
+    max-height:90vh;
+}
 
 /* about-hero-section */
 .about-hero-section .container-fluid .row .col-12 {
