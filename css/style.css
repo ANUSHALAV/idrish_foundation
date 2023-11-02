@@ -142,7 +142,17 @@ header {
 
 /* hero section */
 .hero-section .carousel {
-    max-height:90vh;
+    max-height:100vh;
+}
+
+.carousel-inner{
+    max-height:100vh;
+}
+.carousel-item{
+    max-height:100vh;
+}
+.carousel-item img{
+    max-height:100vh;
 }
 
 /* about-hero-section */
