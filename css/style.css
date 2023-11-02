@@ -155,6 +155,10 @@ header {
     max-height:100vh;
 }
 
+.carousel-caption{
+    margin-bottom:280px;
+}
+
 /* about-hero-section */
 .about-hero-section .container-fluid .row .col-12 {
     height: 60vh;
@@ -316,5 +320,8 @@ form input[type="submit"] {
 
     .image {
         height:30vh;
+    }
+    .carousel-caption{
+        margin-bottom:200px;
     }
 }
